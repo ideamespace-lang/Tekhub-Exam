@@ -17,8 +17,17 @@ nav {
   align-items: center;
   gap: 2rem;
 }
+header {
+  background-color: orangered;
+}
+h1 {
+  color: whitesmoke;
+}
+p {
+  color: rgb(180, 156, 156);
+}
 
-.linksContainer button {
+.btn4 {
   background-color: orange;
   padding: 1rem 2rem;
   border-radius: 1rem;
@@ -35,4 +44,30 @@ nav {
 
 .links a {
   text-decoration: none;
+}
+header {
+  display: flex;
+  flex: 1;
+}
+
+.headerImg {
+  width: 50%;
+  border-radius: 3rem;
+}
+.headerImg img {
+  width: 100%;
+}
+
+.btn1 {
+  background-color: orange;
+  /* padding: 1rem 2rem; */
+  border-radius: 1rem;
+  border: none;
+}
+
+.btn2 {
+  background-color: orange;
+  /* padding: 1rem 2rem; */
+  border-radius: 1rem;
+  border: none;
 }
